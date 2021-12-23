@@ -1,0 +1,4 @@
+[
+  { "cliente_id": "1", "nome": "João Monteiro", "cpf_cnpj": "12345678900", "rg": "12345632", "endereco": "Avenida Machado, 85", "bairro": "Centro", "cidade": "Belo Horizonte"},
+  { "cliente_id": "2", "nome": "Maria Silva", "cpf_cnpj": "12345678911", "rg": "12345645", "endereco": "Avenida Machado, 93", "bairro": "Centro", "cidade": "Belo Horizonte"}
+]

@@ -1,0 +1,4 @@
+[
+  { "cliente_id": "1", "nome_cliente": "João Monteiro", "data_registro": "25/04/2020", "placa": "ABC2586", "situacao": "Concluído"},
+  { "cliente_id": "2", "nome_cliente": "Maria Silva", "data_registro": "08/10/2021", "placa": "OHJ9764", "situacao": "Aberto"}
+]

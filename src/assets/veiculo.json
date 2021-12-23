@@ -1,0 +1,6 @@
+[
+  { "veiculo_id": "1", "nome_cliente": "João Monteiro", "cpf_cnpj": "12345678900", "placa": "ABC2586", "tipo": "Carro"},
+  { "veiculo_id": "3", "nome_cliente": "João Monteiro", "cpf_cnpj": "12345678900", "placa": "NFR1756", "tipo": "Moto"},
+  { "veiculo_id": "2", "nome_cliente": "Maria Silva", "cpf_cnpj": "12345678911", "placa": "OHJ9764", "tipo": "Moto"}
+
+]

@@ -9,7 +9,7 @@ import { Protocolo } from './../model/protocolo';
 })
 export class ProtocoloService {
 
-  private readonly API = 'protocolo';
+  private readonly API = 'api/protocolo';
 
   constructor(private httpClient: HttpClient) {}
 

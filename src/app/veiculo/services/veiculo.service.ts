@@ -9,7 +9,7 @@ import { Veiculo } from './../model/veiculo';
 })
 export class VeiculoService {
 
-  private readonly API = 'veiculo';
+  private readonly API = 'api/veiculo';
 
   constructor(private httpClient: HttpClient) {}
 

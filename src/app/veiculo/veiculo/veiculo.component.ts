@@ -15,7 +15,7 @@ import { VeiculoService } from './../services/veiculo.service';
 export class VeiculoComponent implements OnInit {
 
   veiculo$: Observable<Veiculo[]>;
-  colunasExibidas = ['cliente', 'cpf_cnpj', 'placa', 'tipo'];
+  colunasExibidas = ['nomeCliente', 'documentoCliente', 'placa', 'tipo'];
 
   constructor(private veiculoService: VeiculoService,
     public dialog: MatDialog) {

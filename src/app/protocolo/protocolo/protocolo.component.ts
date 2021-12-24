@@ -15,7 +15,7 @@ import { ProtocoloService } from './../services/protocolo.service';
 export class ProtocoloComponent implements OnInit {
 
   protocolo$: Observable<Protocolo[]>;
-  colunasExibidas = ['nome_cliente', 'data_registro', 'placa', 'situacao'];
+  colunasExibidas = ['nomeCliente', 'dataRegistro', 'placa', 'isConcluido'];
 
   constructor(private protocoloService: ProtocoloService,
     public dialog: MatDialog) {

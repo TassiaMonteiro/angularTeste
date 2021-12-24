@@ -5,15 +5,15 @@
   <table mat-table [dataSource]="veiculo" class="mat-elevation-z8">
 
     <!-- Nome do Cliente Column -->
-    <ng-container matColumnDef="cliente">
+    <ng-container matColumnDef="nomeCliente">
       <th mat-header-cell *matHeaderCellDef>Cliente</th>
-      <td mat-cell *matCellDef="let veiculo">{{ veiculo.cliente }}</td>
+      <td mat-cell *matCellDef="let veiculo">{{ veiculo.nomeCliente }}</td>
     </ng-container>
 
     <!-- Documento Cliente Column -->
-    <ng-container matColumnDef="cpf_cnpj">
+    <ng-container matColumnDef="documentoCliente">
       <th mat-header-cell *matHeaderCellDef>CPF/CNPJ</th>
-      <td mat-cell *matCellDef="let veiculo">{{ veiculo.cpf_cnpj }}</td>
+      <td mat-cell *matCellDef="let veiculo">{{ veiculo.documentoCliente }}</td>
     </ng-container>
 
     <!-- Placa Column -->

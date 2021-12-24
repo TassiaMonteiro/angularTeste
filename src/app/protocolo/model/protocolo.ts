@@ -1,7 +1,7 @@
 export interface Protocolo {
   protocolo_id: string;
-  nome_cliente: string;
-  data_registro: string;
+  nomeCliente: string;
+  dataRegistro: string;
   placa: string;
-  situacao: string;
+  isConcluido: string;
 }

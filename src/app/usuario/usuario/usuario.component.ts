@@ -20,18 +20,13 @@ export class UsuarioComponent implements OnInit {
   constructor(
     private usuarioService: UsuarioService,
     public dialog: MatDialog) {
-    //this.usuarioService = new UsuarioService();
-    this.usuarioService.list()
-    .subscribe((teste) => {
-      console.log(teste);
-    });
-
-    /*.pipe(
+    this.usuario$ = this.usuarioService.list()
+    .pipe(
       catchError(error => {
         this.onError('Erro ao carregar.');
         return of([])
       })
-    );*/
+    );
   }
 
   onError(errorMsg: string) {

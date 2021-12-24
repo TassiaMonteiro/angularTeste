@@ -8,7 +8,7 @@ import { Cliente } from './../model/cliente';
 })
 export class ClienteService {
 
-  private readonly API = 'cliente';
+  private readonly API = 'api/cliente';
 
   constructor(private httpClient: HttpClient) { }
 
